@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pokemon_types">
+        <item>all</item>
+        <item>normal</item>
+        <item>fire</item>
+        <item>water</item>
+        <item>electric</item>
+        <item>grass</item>
+        <item>ice</item>
+        <item>fighting</item>
+        <item>poison</item>
+        <item>ground</item>
+        <item>flying</item>
+        <item>psychic</item>
+        <item>bug</item>
+        <item>rock</item>
+        <item>ghost</item>
+        <item>dragon</item>
+        <item>dark</item>
+        <item>steel</item>
+        <item>fairy</item>
+    </string-array>
+
+    <string-array name="pokemon_generations">
+        <item>All</item>
+        <item>Gen 1 (Kanto)</item>
+        <item>Gen 2 (Johto)</item>
+        <item>Gen 3 (Hoenn)</item>
+        <item>Gen 4 (Sinnoh)</item>
+        <item>Gen 5 (Unova)</item>
+        <item>Gen 6 (Kalos)</item>
+        <item>Gen 7 (Alola)</item>
+        <item>Gen 8 (Galar)</item>
+        <item>Gen 9 (Paldea)</item>
+    </string-array>
+</resources>

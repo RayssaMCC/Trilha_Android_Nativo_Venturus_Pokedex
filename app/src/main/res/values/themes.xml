@@ -6,4 +6,16 @@
     </style>
 
     <style name="Theme.Pokedex" parent="Base.Theme.Pokedex" />
+
+    <!-- Splash screen theme. -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Set the splash screen background color. -->
+        <item name="windowSplashScreenBackground">@color/splash_background_orange</item>
+        <!-- Set the splash screen icon. -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_splash</item>
+        <!-- Set the icon animation duration. -->
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <!-- Set the theme to be used after the splash screen. -->
+        <item name="postSplashScreenTheme">@style/Theme.Pokedex</item>
+    </style>
 </resources>
