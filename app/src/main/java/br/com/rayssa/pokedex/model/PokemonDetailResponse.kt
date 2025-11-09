@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName
 data class PokemonDetailResponse(
     val id: Int,
     val name: String,
-    val height: Int, 
+    val height: Int,
     val weight: Int, 
     val stats: List<StatItem>,
     val types: List<TypeItem>,

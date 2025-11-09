@@ -9,7 +9,7 @@ import br.com.rayssa.pokedex.model.Pokemon
 import androidx.recyclerview.widget.ListAdapter
 
 class PokemonAdapter(
-    private val onItemClick: (Pokemon) -> Unit  // ← ADICIONE: Parâmetro para callback de clique
+    private val onItemClick: (Pokemon) -> Unit // Função de clique
 ) : ListAdapter<Pokemon, PokemonAdapter.PokemonViewHolder>(DiffCallback) {
 
     class PokemonViewHolder(private val binding: ItemPokemonBinding) : RecyclerView.ViewHolder(binding.root) {
